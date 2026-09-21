@@ -1,0 +1,75 @@
+{
+  "B1_Blue": {
+    "mean": 32340.653977795704,
+    "std": 9288.193677803029,
+    "n_pixels": 2121728
+  },
+  "B2_Green_RGB": {
+    "mean": 27564.04892945571,
+    "std": 8828.116648226245,
+    "n_pixels": 2121728
+  },
+  "B3_Red_RGB": {
+    "mean": 19234.182244377946,
+    "std": 8180.336845398918,
+    "n_pixels": 2121728
+  },
+  "B4_Green560": {
+    "mean": 12079.467666448745,
+    "std": 2851.532090333039,
+    "n_pixels": 2121728
+  },
+  "B5_Red650": {
+    "mean": 8419.65105423475,
+    "std": 1827.1323865743925,
+    "n_pixels": 2121728
+  },
+  "B6_RedEdge": {
+    "mean": 14468.023836231605,
+    "std": 3189.154417945798,
+    "n_pixels": 2121728
+  },
+  "B7_NIR": {
+    "mean": 13311.614230476285,
+    "std": 2354.766669605754,
+    "n_pixels": 2121728
+  },
+  "NDVI": {
+    "mean": 0.22835552494509276,
+    "std": 0.059467247401967537,
+    "n_pixels": 2121728
+  },
+  "GNDVI": {
+    "mean": 0.05480632919311565,
+    "std": 0.06377442709057936,
+    "n_pixels": 2121728
+  },
+  "NDRE": {
+    "mean": -0.03705292717296836,
+    "std": 0.036043686968156505,
+    "n_pixels": 2121728
+  },
+  "CIre": {
+    "mean": -0.06908937747127505,
+    "std": 0.06823983526028499,
+    "n_pixels": 2121728
+  },
+  "CIgreen": {
+    "mean": 0.12589740469585817,
+    "std": 0.14792479166599276,
+    "n_pixels": 2121728
+  },
+  "GRVI": {
+    "mean": 1.1258974046958143,
+    "std": 0.14792479166599326,
+    "n_pixels": 2121728
+  },
+  "_meta": {
+    "description": "Normalization statistics dedicated to the deployment model, computed from the full 518-sample train+test set",
+    "n_samples_total": 518,
+    "n_samples_train_orig": 414,
+    "n_samples_test_orig": 104,
+    "n_samples_failed": 0,
+    "note": "The norm_stats.json used for paper evaluation is based only on the 414 training samples; this file, norm_stats_deploy.json, is used for training the deployment model. The two must not be mixed."
+  }
+}
